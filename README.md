@@ -2,6 +2,8 @@
 
 This repository contains a LaTeX template for an EB-1A (Alien of Extraordinary Ability) I-140 immigrant petition. It is structured to help organize evidence, criteria arguments, and legal summaries into a professional document.
 
+[**Download Compiled PDF Example**](https://github.com/rahvis/EB1A-Petition/blob/main/build/petition.pdf)
+
 ## Legal Disclaimer
 
 **IMPORTANT: READ THIS FIRST**
