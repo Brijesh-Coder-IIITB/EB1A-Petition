@@ -1,0 +1,116 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage[margin=2.1cm]{geometry}
+\setlength{\headheight}{14pt}
+\usepackage[utf8]{inputenc}
+\usepackage{dirtytalk}
+\usepackage{titling} % multiple title pages
+
+\usepackage{pdfpages}
+\usepackage{soul}
+\pdfminorversion=7
+
+% Hyperref for PDF bookmarks and navigation
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+    pdftitle={EB-1A Petition for Rahul Deo Vishwakarma},
+    pdfauthor={Rahul Deo Vishwakarma},
+    pdfsubject={EB-1A Extraordinary Ability Petition},
+    pdfkeywords={EB-1A, Immigration, Patents, AI, Machine Learning},
+    bookmarks=true,
+    bookmarksopen=true,
+    bookmarksnumbered=true,
+    bookmarksdepth=4,
+    pdfstartview=FitH,
+    pdfpagemode=UseOutlines
+}
+\usepackage{bookmark}% For better bookmark control
+\usepackage{xurl}
+
+
+\title{}
+% \author{Rahul Vishwakarma}
+\date{}
+
+% \makeatletter
+% \renewcommand\@bibitem[1]{\item\if@filesw \immediate\write\@auxout
+%     {\string\bibcite{#1}{\string\textbf{Exhibit \the\value{\@listctr}}}}\fi\ignorespaces}% <------------
+% \def\@biblabel#1{\textbf{Exhibit #1:}}% <-------------------
+% \makeatother
+
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[labelfont=bf]{caption}
+\usepackage{setspace}\setstretch{1.167}
+\usepackage[utf8]{inputenc}
+\usepackage[british, cleanlook]{isodate}
+\usepackage[pagewise, modulo, mathlines]{lineno}
+\usepackage[expansion=false,nopatch=footnote]{microtype}
+\usepackage[amssymb]{SIunits}
+
+\usepackage{fancyhdr}
+\usepackage{soul}
+\usepackage{tikz}
+\setlength\parindent{0pt}
+\newcommand{\mybullet}{\,\textbullet\,}
+
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+%\tikz[remember picture, overlay] \node at (current page.center) {\includegraphics{outline_letterhead}};
+\renewcommand{\headrulewidth}{1pt}
+% \cfoot{\vspace{-5em}\textbf{\so{\MakeUppercase{Razvan V. Marinescu}}}\\\smallskip\footnotesize Postdoctoral Associate in Artificial Intelligence for Healthcare\\ 
+
+\lhead{EB-1A Permanent Residence Petition for Rahul Deo Vishwakarma}
+% \rhead{\thepage}
+\cfoot{\thepage}
+
+\begin{document}
+\newcommand{\tc}[1]{\textcolor{blue}{#1}}
+
+\input{cover/evidence.tex}
+\input{cover/summary.tex}
+
+\section{Proof of \drs Extraordinary Ability}
+
+% EB1A Criteria 1: Original Contributions
+\subsection{Evidence of original scientific, scholarly, artistic, athletic, or business-related contributions of major significance in the field}
+\label{sec:original}
+\input{criteria/original/original.tex}
+
+% EB1A Criteria 2: Scholarly Articles
+\subsection{Evidence of authorship of scholarly articles in professional or major trade publications or other major media}
+\label{sec:scholar}
+\input{criteria/scholar/scholar.tex}
+
+% EB1A Criteria 3: Judging the Work of Others
+\subsection{Evidence of participation as a judge of the work of others in the same or an allied field of specialization}
+\label{sec:judge}
+\input{criteria/judge/judge.tex}
+
+% EB1A Criteria 4: Membership
+\subsection{Evidence of membership in associations in the field which require outstanding achievements of their members}
+\label{sec:member}
+\input{criteria/member/member.tex}
+
+% EB1A Criteria 5: Published Material About the Alien
+\subsection{Evidence of published material about the alien in professional or major trade publications or other major media}
+\label{sec:media}
+\input{criteria/media/media.tex}
+
+\newpage
+\section{Final Merits Determination}
+\label{sec:final_merits}
+\input{cover/finalmerit.tex}
+
+\newpage
+\section{Statement of Intent to Continue Work in the United States}
+\label{sec:intended_plan}
+\input{cover/intendedplan.tex}
+
+\end{document}
